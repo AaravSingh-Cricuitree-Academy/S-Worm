@@ -1,4 +1,4 @@
-27233234329337036
+27254607311330709
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -107926,6 +107926,27 @@ Varistor VF
 2
 2
 easyeda2kicad
+CRYSTAL-SMD_4P-L3.2-W2.5-BL
+YSX321SL 25MHZ 12PF 10PPM -40~+85℃
+
+0
+4
+4
+easyeda2kicad
+FC-135R_L3.2-W1.5
+32.768KHz ±20ppm 12.5pF
+
+0
+2
+2
+easyeda2kicad
+L0603
+
+
+0
+2
+2
+easyeda2kicad
 LGA-10_L2.0-W2.0-P0.50-TL_BMP580
 
 
@@ -107940,12 +107961,61 @@ LGA-14_L3.0-W2.5-P0.50-TL
 14
 14
 easyeda2kicad
+LGA-16_L3.0-W3.0-P0.50-BL_SQ
+
+
+0
+16
+16
+easyeda2kicad
 LQFP-64_L10.0-W10.0-P0.50-LS12.0-BL
 
 
 0
 64
 64
+easyeda2kicad
+MSOP-10_L3.0-W3.0-P0.50-LS5.0-BL
+16-Bit ADC with Integrated Multiplexer, PGA, Comparator, Oscillator, and Reference, -40 to 125 degC, 10-pin SOP (DGS10), Green (RoHS  no SbBr)
+
+0
+10
+10
+easyeda2kicad
+QFN-16_L3.0-W3.0-P0.50-TL-EP1.7
+Buck Step Down Regulator with 3 to 17 V Input and 0.9 to 6 V Output, -40 to 85 degC, 16-Pin QFN (RGT), Green (RoHS  no SbBr)
+
+0
+17
+17
+easyeda2kicad
+QFN-28_L6.0-W6.0-P0.65-BL-EP
+
+
+0
+33
+29
+easyeda2kicad
+SMD-18_L10.1-W9.7-P1.10-TL_SKG09F
+
+
+0
+18
+18
+easyeda2kicad
+SW-SMD_L3.9-W3.0-P4.45
+
+
+0
+2
+2
+easyeda2kicad
+TSSOP-16_L5.0-W4.4-P0.65-LS6.4-BL
+
+
+0
+16
+16
 easyeda2kicad
 USB-C-SMD_TYPE-C-16PIN-2MD-073
 
@@ -107960,3 +108030,17 @@ VQFN-15_L3.0-W2.5-P0.50-BL
 0
 17
 13
+easyeda2kicad
+VQFN-HR-12_L2.5-W2.0-P0.50-BL
+
+
+0
+12
+12
+easyeda2kicad
+WIRELM-SMD_E22-900M22S
+
+
+0
+22
+22

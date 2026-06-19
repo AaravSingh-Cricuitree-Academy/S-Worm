@@ -1,6 +1,9 @@
 # S-Worm
 _Swarm based Watch operations for rescue missions_
 
+<img width="3780" height="1890" alt="Untitled design (16)" src="https://github.com/user-attachments/assets/651765d3-b446-4a66-a622-5cc0583ab618" />
+
+## Basic architechtural overview-
 Essentially its a system of 2 different types of drones
 1) The recon
 2) The rescuer
@@ -8,34 +11,19 @@ Essentially its a system of 2 different types of drones
 And also
 
 -> Ground station
-   
-Both share the same flight controller and ESC board. The difference in them is speciality boards, defined below-
 
--> The recon is equiped with another board with a Camera and LIDAR which hovers over terrain to map it out and then stores it. After a full map out it sends the data to the ground station where the data is processed and the area is divided into zones and high risk areas.
-
--> The rescue is equipped with a Mic, GPR, Thermal and regular camera all processed by a PI hat 2 to look for human signals.
-
+<img width="1220" height="408" alt="Recon drone" src="https://github.com/user-attachments/assets/2a28405e-1a36-4ee3-bd66-5e3310178b85" />
 -> The ground station uses TDMA architechture to direct ALL the drones.
 
-**Macondo reviewer's note-**
+-> This is intended to be used in situations of disaster like earthquakes, tsunamis, bombings ,and/or mapping out complex terrain. 
 
-This isn't a complete finished build, nor is it anywhere close to it. This project will perhaps take me 2-3 years or more as S-Worm is only a part of the bigger swarm based tech I wish to create.
+Both share the same flight controller and ESC board. The difference in them is speciality boards which are unique to the respective drone, defined below-
 
-S-Worm, as shipped, is the very first prototype iteration of the main FC board. Such a process will be repeated for the ESC board and speciality board aswell. 
+-> The recon's speciality board is equiped with a Camera and LIDAR which hovers over terrain to map it out and then stores it. After a full map out it sends the data to the ground station where the data is processed and the area is divided into zones and high risk areas.
 
-Not to mention the 3D design and code that is yet to follow. 
+-> The rescue is equipped with a Mic, GPR to, Thermal and regular camera all processed by a PI hat 2 to look for human signals even under debris.
 
-Since i started this project about the same time as my summer vacations, the prototype needed to be finished by the end of my summer vacations and thats what was done has been shipped.
+<img width="1289" height="639" alt="Add a heading (1)" src="https://github.com/user-attachments/assets/cffbd247-889e-4921-805a-1967302db333" />
 
-_A functioning prototype of the FC's electronics build._
-
-If this project is approved and sufficient coins are provided ill get a new 3D printer which I will use to fuel my ever growing wish for innovation.
-
-The FC isnt new ground-breaking tech but it is, MINE, made for my swarm tech specifically. I learned so many skills throughout my journey at macondo that will prove to be invaluable in the near future.
-
-Thank you for this opportunity.
-
-_**-XOXO, Aarav**_
-
-
-_Check Hardware ReadMe to have an overview of exactly what has been built ;)_ 
+_Check Hardware ReadMe to have an in-depth
+ overview of exactly what has been built ;)_ 

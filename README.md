@@ -25,5 +25,5 @@ Both share the same flight controller and ESC board. The difference in them is s
 
 <img width="1289" height="639" alt="Add a heading (1)" src="https://github.com/user-attachments/assets/cffbd247-889e-4921-805a-1967302db333" />
 
-_Check Hardware ReadMe to have an in-depth
+_Check [Hardware ReadMe](Hardware/Hardware_ReadMe.md) to have an in-depth
  overview of exactly what has been built ;)_ 

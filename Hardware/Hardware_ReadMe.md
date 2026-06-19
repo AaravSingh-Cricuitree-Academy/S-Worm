@@ -1,5 +1,7 @@
 # HARDWARE SPECS-
 
+<img width="1153" height="643" alt="image" src="https://github.com/user-attachments/assets/ad33db9e-c29c-45bb-9f20-d04eb1571db9" />
+
 **Processing & Control**
 
     1 STM32F405RGT6 (Main Flight Controller MCU)- Brain of the system
@@ -46,7 +48,7 @@
 	Resistor network (10 kΩ, 30 kΩ, 75 kΩ, 80 kΩ, 100 kΩ)
 	FCM1608KF-601T03 (Ferrite Bead)
 
-# Build reasoning
+## Build reasoning
 STM32F405 because i was drawing inspo from the existing speedybee f405 board
 
 I ran out of ADCs in my STM32 so im reading the voltage given by my battery via a voltage divider and ADC to convert the analog voltage to UART so my STM32 can read it.
@@ -62,3 +64,7 @@ MAX-M10S-00B good features at a reasonable cost
 Passive compnents were selected from the datasheet and/or the guide
 
 Rest is rather self explainatory
+
+## Schematic for quick reference
+
+<img width="431" height="295" alt="image" src="https://github.com/user-attachments/assets/e7d71d60-ee83-4b71-a88e-fb8e320ecec0" />
